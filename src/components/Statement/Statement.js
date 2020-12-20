@@ -3,7 +3,9 @@ import React, { useState } from 'react'
 import 'ag-grid-enterprise';
 
 export const Statement = () => {
+    // eslint-disable-next-line
     const [gridApi, setGridApi] = useState(null);
+    // eslint-disable-next-line
     const [gridColumnApi, setGridColumnApi] = useState(null);
     const [rowData, setRowData] = useState(null);
 
